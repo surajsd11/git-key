@@ -1,0 +1,45 @@
+1 git status (show status of git)
+2 git init (git ka andar daal data ha)
+3 git add --a(sari file add kar da ga staging ma) or git add any thing you want to add in in staging
+4 git commit -m (commit kar da ga jo staging ma filr hoga)
+5 git log(jo jo commit ma huya ha vo vo baata daga)
+6 rm -rf .git(sab delete kar da ga)
+7 pwd(jis directories ma ho)
+8 ls (list contain kar do jis folder ma ho)
+9 cd lsmajohavolikhdo (jo ls ka andar file ha agar usa use akrana ha )
+10 git diff(compare working director to staging area sa)
+or 
+10 git diff --staged(compare everything)
+11 git commit -a -m "direct commit" (to skip staging area for tracked file)
+12 git add . (to add)
+13 git rm (jo remove karna ho).txt (this remove the file)
+14 git mv first.txt first_renamed.txt (this rename the file)
+15 git rm --cached db.accdb (to untrack file)
+16 git clone foldername
+17 git log -p(jo commit hyua or jo remove hyua vo dekhayaga)
+18 git log --stat(show commit in short)
+19 git log -p -anynumber (only show that number of commit)
+20 git log --pretty=oneline (show all commit in one one line)
+21 git log --pretty=short
+22 git log --pretty=full
+23 git log --since=2.days(pichala do din ka commit)
+24 git log --since=2.weeks
+25 git log --pretty=format: "%h -- %an"
+26 git commit --amend (to change commit)
+27 git restore --staged (file name).txt (it unstage file)
+28 git checkout --(file name).txt (it bring back previous file)
+29 git checkout -f
+* github remote*
+30 git remote 
+31 git remote -v
+32 git push -u 
+*-----*
+33 git config --global alias.(name) (name which you want to make small)      (this command make big command into small command)
+* to make new branch*
+34 git checkout -b (name)  (it will make new branch )
+35 git branch (tell all branch)
+
+36 git merge (name of branch)    (it will merge the branch)
+37 git branch -v (tell last commet of all branch)
+38 git branch -d (name of branch)  (it will delete branch)
+
